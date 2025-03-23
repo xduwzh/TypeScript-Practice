@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+input,
+button {
+  padding: 8px;
+  margin-right: 4px;
+}
+li {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
